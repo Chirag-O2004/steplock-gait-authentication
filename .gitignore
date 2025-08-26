@@ -21,3 +21,22 @@ Thumbs.db
 *.swp
 
 lib/site-packages/
+
+# Backend - Exclude sensitive/generated files
+uploaded_videos/
+landmarks/
+user_profiles.json
+__pycache__/
+*.pyc
+*.pyo
+
+# Frontend - Exclude dependencies and build files  
+node_modules/
+build/
+dist/
+
+# General
+.env
+.DS_Store
+Thumbs.db
+*.log
