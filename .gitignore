@@ -1,0 +1,23 @@
+node_modules
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+backend/uploaded_videos/
+backend/landmarks/
+backend/user_profiles.json
+
+# Node.js
+node_modules/
+npm-debug.log
+build/
+dist/
+
+# IDE & OS
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+lib/site-packages/
